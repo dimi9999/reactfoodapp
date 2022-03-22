@@ -1,0 +1,199 @@
+body {
+  font:300 18px/1.5 'Roboto', sans-serif
+}
+
+.App {
+    min-height:100vh;
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+.App h1 {
+    text-align: center;
+    margin:0;
+    padding:20px 0;
+}
+ .container {
+    box-shadow: 0 2px 10px #ccc;
+    margin: 20px;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 1280px;
+    margin: 0 auto 40px;
+}
+/* Search form */
+ .search-form {
+    min-height: 10vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .search-bar {
+    width:50%;
+    border:none;
+    padding: 20px;
+    font-size:14px;
+ }
+ .search-button {
+    background: lightcoral;
+    border:none;
+    padding:20px 40px;
+    color:#fff;
+    font-size:14px;
+ }
+ .recipes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+ @media only screen and (max-width:767px) {
+  .search-bar {
+    width:100%;
+  }
+ }
+ /* Top Nav */
+ nav {
+   display:flex;
+   justify-content: space-around;
+   align-items: center;
+   min-height: 10vh;
+   background: lightcoral;
+   color:#fff;
+   padding-left:25px;
+   padding-right:25px;
+ }
+.nav-links {
+   width:50%;
+   display:flex;
+   justify-content: space-around;
+   align-items: center;
+   list-style-type: none;
+ }
+ nav h3 a,
+ nav h3 a:hover,
+ nav h3 a:visited,
+ .nav-links a,
+ .nav-links a:hover,
+ .nav-links a:visited {
+   color:#fff;
+   text-decoration: none;
+ }
+ @media only screen and (max-width:767px) {
+   .nav-links h3 a,
+   .nav-links a {
+     font-size: 15px;
+   }
+ }
+ /* main */
+ main {
+   padding:0 25px;
+ }
+/* Responsive Tables */
+.responsiveTable {
+  margin:0 auto;
+  max-width:1280px;
+  overflow: auto;
+  margin-bottom:40px;
+}
+.responsiveTable table {
+  border:1px solid #ccc;
+  border-collapse: collapse;
+}
+.responsiveTable table tr th {
+  background: lightcoral;
+  color:#fff;
+  font-weight: normal;
+  padding:15px;
+}
+.responsiveTable table tr td {
+  background:#fff;
+  border:1px solid #ccc;
+  border-collapse: collapse;
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;;
+}
+/* form container */
+.formContainer {
+  margin:0 auto 25px auto;
+  display:block;
+  max-width: 800px;
+  padding:60px 70px;
+  background:rgba(255,255,255, 0.4);
+}
+.formContainer formgroup {
+  margin: 0 0 25px 0;
+  display:block;
+}
+.formContainer formgroup label {
+  display:block;
+  margin:0 0 25px 0;
+}
+.formContainer formgroup input[type="text"],
+.formContainer formgroup input[type="email"],
+.formContainer formgroup input[type="tel"],
+.formContainer formgroup input[type="password"],
+.formContainer formgroup textarea {
+  width: 100%;
+  padding:20px;
+  border-radius:0;
+  border:1px solid #fff;
+  font-size:18px;
+  box-sizing: border-box;
+  transition:0.4s ease-in all;
+}
+.formContainer formgroup textarea {
+  display:block;
+  margin:0 0 20px 0;
+  min-height:450px;
+}
+.formContainer formgroup input[type="text"]:hover,
+.formContainer formgroup input[type="email"]:hover,
+.formContainer formgroup input[type="tel"]:hover,
+.formContainer formgroup input[type="password"]:hover,
+.formContainer formgroup textarea:hover,
+.formContainer formgroup input[type="text"]:focus,
+.formContainer formgroup input[type="email"]:focus,
+.formContainer formgroup input[type="tel"]:focus,
+.formContainer formgroup input[type="password"]:focus,
+.formContainer formgroup textarea:focus,
+.formContainer formgroup input[type="text"]:active,
+.formContainer formgroup input[type="email"]:active,
+.formContainer formgroup input[type="tel"]:active,
+.formContainer formgroup input[type="password"]:active,
+.formContainer formgroup textarea:active {
+  color:lightcoral;
+  border-color:lightcoral;
+  background: rgb(255, 236, 236);
+  box-shadow:none;
+  outline:none;
+}
+.formContainer button {
+  border:0;
+  background: lightcoral;
+  padding:20px;
+  color:#fff;
+  font-size:18px;
+}
+@media only screen and (max-width:767px) {
+  .formContainer {
+    padding:25px;
+  }
+}
+ /* Footer */
+ footer {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background:#333;
+  color:#fff;
+  text-align:center;
+}
+footer ul {
+  width:50%;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+ 
